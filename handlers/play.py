@@ -200,12 +200,12 @@ async def play(_, message: Message):
     if int(chat_id) in ACTV_CALLS:
         position = await queues.put(chat_id, file=file_path)
         await message.reply_text(
-               text=f"**ㅤㅤㅤ» تم التشغيل يغالي «**\n📌 **الاسم​:** [{title[:65]}]({url})\n🕕 **عدد دقائق:** `{duration}` الاغنية\n💕 **مطلوبة بواسطة​:** {chumtiya}\n💔 **الدردشة​:** `{message.chat.title}`\n🎥 **نوع التشغيل:** موسيقى\n",
+               text=f"**ㅤㅤㅤ» تم التشغيل يغالي «**\n **الاسم​:** [{title[:65]}]({url})\n🕕 **عدد دقائق:** `{duration}` الاغنية\n **مطلوبة بواسطة​:** {chumtiya}\n **الدردشة​:** `{message.chat.title}`\n **نوع التشغيل:** موسيقى\n",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton("• كروب الدعم •", url=f"https://t.me/{SUPPORT_GROUP}"),
-                    InlineKeyboardButton("• قناة البوت •", url=f"https://t.me/VFF35")
+                    InlineKeyboardButton("• قناة البوت •", url=f"https://t.me/R125R")
                 ],
                 [InlineKeyboardButton("» اخفاء الكليشه «", callback_data="close_play")
                 ],
@@ -225,12 +225,12 @@ async def play(_, message: Message):
             )
 
         await message.reply_text(
-            text=f"**ㅤㅤㅤ» تم التشغيل يغالي «**\n📌 **الاسم​:** [{title[:65]}]({url})\n🕕 **عدد دقائق:** `{duration}` الاغنية\n💕 **مطلوبة بواسطة​:** {chumtiya}\n💔 **الدردشة​:** `{message.chat.title}`\n🎥 **نوع التشغيل:** موسيقى\n",
+            text=f"**ㅤㅤㅤ» تم التشغيل يغالي «**\n **الاسم​:** [{title[:65]}]({url})\n🕕 **عدد دقائق:** `{duration}` الاغنية\n **مطلوبة بواسطة​:** {chumtiya}\n **الدردشة​:** `{message.chat.title}`\n **نوع التشغيل:** موسيقى\n",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton("• كروب الدعم •", url=f"https://t.me/{SUPPORT_GROUP}"),
-                    InlineKeyboardButton("• قناة البوت •", url=f"https://t.me/VFF35")
+                    InlineKeyboardButton("• قناة البوت •", url=f"https://t.me/R125R")
                 ],
                 [InlineKeyboardButton("» اخفاء الكليشه «", callback_data="close_play")
                 ],

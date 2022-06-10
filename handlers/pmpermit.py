@@ -18,7 +18,7 @@ async def pmPermit(client: USER, message: Message):
                 return
             await USER.send_message(
                 message.chat.id,
-                f"ʜᴇʏ {message.from_user.mention()},\nᴛʜɪs ɪs [{bn}](t.me/{lel}) ʙᴏᴛ ᴀssɪsᴛᴀɴᴛ ᴀᴄᴄᴏᴜɴᴛ.\n\nᴅᴏɴ'ᴛ ᴛʀʏ ᴛᴏ sᴘᴀᴍ ʜᴇʀᴇ ᴇʟsᴇ ʏᴏᴜ ᴡɪʟʟ ɢᴇᴛ ꜰᴜ*ᴋᴇᴅ ʙʏ [𝑆𝑂𝐔𝑅𝐶𝐸 𝐶𝑂b𝑅𝐴](t.me/VFF35).\n",
+                f"ʜᴇʏ {message.from_user.mention()},\nᴛʜɪs ɪs [{bn}](t.me/{lel}) ʙᴏᴛ ᴀssɪsᴛᴀɴᴛ ᴀᴄᴄᴏᴜɴᴛ.\n\nᴅᴏɴ'ᴛ ᴛʀʏ ᴛᴏ sᴘᴀᴍ ʜᴇʀᴇ ᴇʟsᴇ ʏᴏᴜ ᴡɪʟʟ ɢᴇᴛ ꜰᴜ*ᴋᴇᴅ ʙʏ [𝑆𝑂𝐔𝑅𝐶𝐸 𝐶𝑂b𝑅𝐴](t.me/R125R).\n",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -26,11 +26,11 @@ async def pmPermit(client: USER, message: Message):
                         "• ʙᴏᴛ •", url=f"https://t.me/{lel}"
                     ),
                     InlineKeyboardButton(
-                        "• كروب الدعم •", url="https://t.me/faqek"
+                        "• كروب الدعم •", url="https://t.me/QQQLO"
                     )
                 ],[ 
                     InlineKeyboardButton(
-                        "• قناة البوت •", url=f"https://t.me/VFF35"
+                        "• قناة البوت •", url=f"https://t.me/R125R"
                     )]
             ]
         ),
