@@ -3,7 +3,7 @@
   "logo": "https://telegra.ph/file/bb36322c9de65156bd04e.jpg",
   "description": "A SuperFast VC Player bot to play songs in Telegram Video Chat. Powered by PyTgCalls.",
   "keywords": ["music", "voicechat", "telegram", "fallen"],
-  "repository": "https://github.com/ERTWF/UUOUU",
+  "repository": "https://github.com/ERTWF/R125R",
   "stack": "container",
   "env": {
     "SESSION_NAME": {
@@ -38,7 +38,7 @@
       "value": "QABNADLIB"
     },
     "SUPPORT_GROUP": {
-      "description": "معرف كروبك بدون @",
+      "description": "معرف قناتك بدون @",
       "required": false,
       "value": "faqek"
     },
@@ -61,7 +61,7 @@
       "value": "ENABLE"
     },
     "DURATION_LIMIT": {
-      "description": "هم عوفها لاتلعب بشي تحياتي لك المبرمج سيف كوبرا",
+      "description": "هم عوفها لاتلعب بشي تحياتي لك المبرمج دايفل ا",
       "required": false,
       "value": "90"
     }
