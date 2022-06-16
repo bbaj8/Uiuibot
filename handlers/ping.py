@@ -63,7 +63,7 @@ async def help(client: Client, message: Message):
                         "• كروب الدعم •", url=f"https://t.me/{SUPPORT_GROUP}"
                     ),
                     InlineKeyboardButton(
-                        "• قناة البوت •", url="https://t.me/R125R"
+                        "• قناة البوت •", url="https://t.me/"
                     )
                 ]
             ]
